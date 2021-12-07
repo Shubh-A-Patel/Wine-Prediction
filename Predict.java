@@ -41,8 +41,8 @@ public class Predict {
             parser.logisticRegression(spark);
         }else{
             System.out.print("TestDataset.csv doesn't exists please provide testFilePath using -v \n" +
-                    "docker run -v [local_testfile_directory:/data] nieldeokar/wine-" +
-                    "prediction-mvn:1.0  /TestDataset.csv\n");
+                    "docker run -v [local_testfile_directory:/data] shubhpatel/prp2" +
+                    " /TestDataset.csv\n");
         }
 
     }
